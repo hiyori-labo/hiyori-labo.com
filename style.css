@@ -420,4 +420,11 @@ footer p {
     .contact-links {
         align-items: flex-start;
     }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.4rem;
+        padding: 2rem 2rem;
+    }
 }
