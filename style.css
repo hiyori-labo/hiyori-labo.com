@@ -286,6 +286,23 @@ section {
     letter-spacing: 0.04em;
 }
 
+.work-link {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s, letter-spacing 0.2s;
+}
+
+.work-link:hover {
+    color: var(--fg);
+    letter-spacing: 0.14em;
+}
+
 /* ── CONTACT ── */
 .contact-inner {
     display: flex;
